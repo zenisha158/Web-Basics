@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback-form{
+    border: 1px solid #dcdcdc;
+    border-radius: 30px;
+    padding: 20px;
+    max-width: 400px;
+}
+
+.safety-section{
+    padding: 20px 5px;
+    border-bottom: 1px dotted #d9cbcb;
+}
+
+.communication-section{
+    padding: 20px 5px;
+    border-bottom: 1px dotted #d9cbcb;
+}
+
+.recommend-section{
+    padding: 20px 5px;
+    border-bottom: 1px dotted #d9cbcb;
+}
+
+.praise-section{
+    padding: 20px 5px;
+    border-bottom: 1px dotted #d9cbcb;
+}
+
+.experience-share{
+    padding: 20px 5px;
+    border-bottom: 1px dotted #d9cbcb;
+}
+
+.desc{
+    color: gray;
+    padding: 10px 0;
+}
+
+.thumbs-icon{
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.thumbs-icon span{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.thumbs-icon i{
+    font-size: 40px;
+}
+
+.star-ratings span{
+    font-size: 40px;
+    color: orange;
+    padding: 0 2px;
+}
+
+.tags span{
+    display: inline-block;
+    border-radius: 30px;
+    padding: 10px 10px;
+    margin: 4px;
+    background-color: #f5f3ef;
+    border: 1px solid #dcdcdc;
+}
+
+.tags span:nth-child(1){
+    background-color: #6bb683;
+}
+.tags span:nth-child(3){
+    background-color: #6bb683;
+}
+.tags span:nth-child(7){
+    background-color: #6bb683;
+}
+.tags span:nth-child(9){
+    background-color: #6bb683;
+}
+
+.publish-btn{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #6bb683;
+    color: #195a64;
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.textarea-style{
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    width: 100%;
+}
+
+
+
+
+
