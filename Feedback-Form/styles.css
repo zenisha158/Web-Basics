@@ -1,99 +1,86 @@
-*{
-    margin: 0;
+:root {
+    --primary-color: #6bb683;
+    --border-color: #dcdcdc;
+    --section-padding: 20px 5px;
 }
 
-.card{
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.feedback-form{
-    border: 1px solid #dcdcdc;
+.feedback-form {
+    border: 1px solid var(--border-color);
     border-radius: 30px;
     padding: 20px;
     max-width: 400px;
 }
 
-.safety-section{
-    padding: 20px 5px;
-    border-bottom: 1px dotted #d9cbcb;
+.safety-section,
+.communication-section,
+.recommend-section,
+.praise-section,
+.experience-share {
+    padding: var(--section-padding);
+    border-bottom: 1px dotted var(--border-color);
 }
 
-.communication-section{
-    padding: 20px 5px;
-    border-bottom: 1px dotted #d9cbcb;
-}
 
-.recommend-section{
-    padding: 20px 5px;
-    border-bottom: 1px dotted #d9cbcb;
-}
-
-.praise-section{
-    padding: 20px 5px;
-    border-bottom: 1px dotted #d9cbcb;
-}
-
-.experience-share{
-    padding: 20px 5px;
-    border-bottom: 1px dotted #d9cbcb;
-}
-
-.desc{
+.desc {
     color: gray;
     padding: 10px 0;
 }
 
-.thumbs-icon{
-    font-size: larger;
+.thumbs-icon {
+    font-size: 24px;
     display: flex;
     align-items: center;
     gap: 60px;
 }
 
-.thumbs-icon span{
+.thumbs-icon span {
     display: flex;
     align-items: center;
     gap: 4px;
 }
 
-.thumbs-icon i{
+.thumbs-icon i {
     font-size: 40px;
 }
 
-.star-ratings span{
+.star-ratings span {
     font-size: 40px;
     color: orange;
     padding: 0 2px;
 }
 
-.tags span{
+.tags span {
     display: inline-block;
     border-radius: 30px;
     padding: 10px 10px;
     margin: 4px;
     background-color: #f5f3ef;
-    border: 1px solid #dcdcdc;
+    border: 1px solid var(--border-color);
 }
 
-.tags span:nth-child(1){
-    background-color: #6bb683;
-}
-.tags span:nth-child(3){
-    background-color: #6bb683;
-}
-.tags span:nth-child(7){
-    background-color: #6bb683;
-}
-.tags span:nth-child(9){
-    background-color: #6bb683;
+.tags span:nth-child(1),
+.tags span:nth-child(3),
+.tags span:nth-child(7),
+.tags span:nth-child(9) {
+    background-color: var(--primary-color);
 }
 
-.publish-btn{
+
+.publish-btn {
     margin-top: 20px;
     width: 100%;
-    background-color: #6bb683;
+    background-color: var(--primary-color);
     color: #195a64;
     font-weight: bold;
     padding: 15px 20px;
@@ -102,13 +89,8 @@
     cursor: pointer;
 }
 
-.textarea-style{
+.textarea-style {
     padding: 10px;
-    border: 1px solid #dcdcdc;
+    border: 1px solid var(--border-color);
     width: 100%;
 }
-
-
-
-
-
